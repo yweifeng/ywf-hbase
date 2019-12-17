@@ -1,0 +1,6 @@
+hbase:
+  config:
+    hbase.zookeeper.quorum: master,slave1,slave2
+    hbase.zookeeper.port: 2181
+    hbase.zookeeper.znode: /hbase-unsecure
+    hbase.client.keyvalue.maxsize: 1572864000
